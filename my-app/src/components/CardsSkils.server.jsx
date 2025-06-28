@@ -34,7 +34,7 @@ export default function CardsSkils() {
                         alt={`Logo ${file}`}
                         width={72}
                         height={72}
-                        className='border-gray-300 border-1 px-3 py-2 w-[256px]'
+                        className='border-gray-300 border-1 px-3 py-2 w-[256px] rounded'
                     />
                 ))}
             </div>
