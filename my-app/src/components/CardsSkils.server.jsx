@@ -59,8 +59,8 @@ export default function CardsSkils() {
     }, []);
 
     return (
-        <article className='grid grid-cols-2 gap-2'>
-            <section className='flex'>
+        <article className='md:flex lg:grid lg:grid-cols-2 gap-2'>
+            <section className='flex md:pb-3'>
                         <span className={`transition-colors duration-300 ${hoveredFigure ? 'text-gray-50 opacity-85' : 'text-gray-300 opacity-45'}`}>{description}</span>
             </section>
 

@@ -5,12 +5,12 @@ import CardSkils from "@/components/CardsSkils.server"
 
 export default function BioHome() {
     return (
-        <div>
+        <div className="w-auto">
             <Menu />
                 <section className="grid grid-cols-2">
                     <div className="flex flex-col gap-2 justify-center items-left">
-                        <h1 className="text-gray-50-500 text-3xl font-bold"><span>&#x1F44B;</span> Olá, eu sou o Wemerson</h1>
-                        <h2 className="text-blue-500 text-2xl font-medium">Desenvolvedor Full-Stack React | Node.js</h2>
+                        <h1 className="text-gray-50-500 md:text-2xl lg:text-[27px] xl:text-3xl font-bold"><span>&#x1F44B;</span> Olá, eu sou o Wemerson</h1>
+                        <h2 className="text-blue-500 md:text-[18px] lg:text-[20px] xl:text-2xl font-medium">Desenvolvedor Full-Stack React | Node.js</h2>
                         <p className="text-gray-300">Crio interfaces responsivas e modernas focado em alta performacer.</p>
                     </div>
                     <div className="flex gap-4 justify-center items-center">
@@ -29,9 +29,9 @@ export default function BioHome() {
                     </div>
                 </section>
                 <article className="mt-32">
-                    <section className="grid grid-cols-2">
+                    <section className="md:felx lg:grid lg:grid-cols-2">
                         <div className="flex flex-col gap-2 text-gray-300 justify-center">
-                            <h1 className="text-blue-500 text-3xl font-semibold">Sobre mim</h1>
+                            <h1 className="text-blue-500 md:text-2xl lg:text-3xl font-semibold">Sobre mim</h1>
                             <p>
                                 Sou um programador apaixonado por JavaScript, com experiência em React e TailwindCSS no front-end, além de Node.js e Express no back-end. Também estou me aprofundando em bancos de dados como MySQL e MongoDB.
                             </p>
